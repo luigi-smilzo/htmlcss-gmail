@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  color: #fff;
+}
+
+footer {
+  font-style: italic;
+  text-align: center;
+  font-size: 12px;
+}
+
+#container {
+  width: 1000px;
+  margin: auto;
+}
+
+#logo {
+  width: 80px;
+  vertical-align: middle;
+}
+
+#logo-text {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#search-bar {
+  margin-bottom: 10px;
+}
+
+#mail-list {
+  color: #000;
+}
+
+.anteprima {
+  color: rgb(120, 120, 120);
+}
+
+.n-box {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: dodgerblue;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 25px;
+}
+
+.read {
+  background-color: #fff;
+  height: 25px;
+  margin: 2px;
+  padding-left: 8px;
+}
+
+.unread {
+  background-color: #fff;
+  height: 25px;
+  margin: 2px;
+  font-weight: 700;
+  padding-left: 3px;
+  border-left: 5px solid dodgerblue;
+}
+
+.star {
+  font-weight: 400;
+}
+
+.anteprima::before {
+  content: ' - ';
+}
+
+.anteprima::after {
+  content: '...';
+}
